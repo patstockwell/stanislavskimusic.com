@@ -1,0 +1,862 @@
+@media (min-width: 550px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+@keyframes titlefade {
+	0%   {color: transparent; left:0px; top:20px;}
+    20%  {color: transparent; left:0px; top:20px;}
+    100% {color: #222; left:0px; top:0px;}
+}
+
+body {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+	letter-spacing: 0.7px;
+}
+
+.whole-page {
+	background-image: url('../images/anthony-stanislavski-028.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+}
+
+.container {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.nav {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: rgba(256, 256, 256, 0.9);
+	z-index: 3;
+}
+.nav-space {
+	height: 60px;
+}
+
+#banner-name {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+#banner-name-link {
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+	animation-name: titlefade;
+    animation-duration: 2s;
+}
+
+.hidden-for-mobile {
+	display: none;
+}
+
+@media (min-width: 400px) {
+	.hidden-for-mobile {
+		display: inherit;
+	}
+}
+
+.hero-subtitle {
+		visibility: hidden;
+	}
+
+.hero-heading {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	padding-top: 30px;
+}
+
+.hero-heading > h3 {
+	display: inline-block;
+	padding: 9px;
+	background-color: rgba(14, 14, 14, 0.1);
+}
+
+@media (min-width: 750px) {
+	.hero-subtitle {
+		visibility: visible;
+		font-size: 0.5em;
+		margin-left: 20px;
+	}
+	.hero-heading > h3 {
+		display: none;
+	}
+}
+
+.hero-link:link,
+.hero-link:visited {
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: rgba(256, 256, 256, 0.8);
+	font-size: 3.5em;
+	border: 1px rgba(256, 256, 256, 0.3) solid;
+	padding: 30px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	display: block;
+	margin-top: 10px;
+}
+
+.hero-link:hover,
+.hero-link:active {
+	color: white;
+	border: 1px white solid;
+	background-color: rgba(14, 14, 14, 0.1);
+}
+
+@media (max-width: 500px) {
+	.hero-link:link,
+	.hero-link:visited {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+@media (min-width: 1096px) {
+	.hero-link:link,
+	.hero-link:visited {
+		color: rgba(256, 256, 256, 0.0);
+		padding-top: 100px;
+		padding-bottom: 100px;
+		transition: color 0.5s;
+	}
+
+	.hero-link:hover,
+	.hero-link:active {
+		color: white;
+	}
+}
+
+.greysheet {
+	background-color: rgba(14, 14, 14, 0.7);
+	min-height: 500px;
+}
+
+.hero {
+	min-height: 500px;
+}
+
+.front-page-link-area {
+	padding-top: 180px;
+	margin-top: 0;
+}
+
+.front-page-button-holder {
+	text-align: center;
+}
+
+.button.front-page-button {
+	width: 70%;
+}
+
+.section {
+	min-height: 400px;
+	border-top: 1px transparent solid;
+}
+
+.row {
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+.social-media-icons {
+	width: 45px;
+	padding: 8px;
+	display: inline;
+	opacity: 1.0;
+	transition: opacity 0.3s;
+}
+
+.social-media-icons:hover {
+	opacity: 0.7;
+}
+
+#footer {
+	background-color: #262626;
+	color: white;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+.drumicon {
+	width: 200px;
+	height: 100%;
+}
+
+/*-------- Rules for the teaching page --------*/
+
+/*----------------what-will-you-learn*/
+
+#what-will-you-learn {
+	color: white;
+	min-height: 600px;
+	background-image: url("../images/IMG_2751.jpg");
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-color: black;
+	background-position: left bottom;
+}
+
+.shaded-box {
+	padding: 18px;
+	background-color: rgba(256, 256, 256, 0.2);
+	border-radius: 5px;
+}
+
+@media (max-width: 750px) {
+	#what-will-you-learn {
+		color: white;
+		min-height: 600px;
+		background-image: url("../images/IMG_2751.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-color: black;
+		background-position: left bottom;
+	}
+}
+
+.main-btn-2:link,
+.main-btn-2:visited {
+	background-color: none;
+	border: 2px solid #F04C21;
+	display: block;
+	font-size: 130%;
+	text-transform: none;
+	padding: 8px;
+	text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.main-btn-2:hover,
+.main-btn-2:active {
+	background-color: #C1081A;
+	color: white;
+	border: 2px solid #C1081A;
+}
+
+.main-btn-1:link,
+.main-btn-1:visited {
+	display: block;
+	font-size: 130%;
+	background-color: #F04C21;
+	text-transform: none;
+	padding: 10px;
+	text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.main-btn-1:hover,
+.main-btn-1:active {
+	background-color: #C1081A;
+}
+
+@media (min-width: 750px) {
+	.float-buttons-small-screen {
+		display: none;
+	}
+	.float-buttons-big-screen {
+		display: inline;
+	}
+}
+
+@media (max-width: 750px) {
+	.float-buttons-big-screen {
+		display: none;
+	}
+	.main-btn-2:link,
+	.main-btn-2:visited {
+		color: white;
+	}
+}
+
+
+
+/*----------------------drums*/
+.drums {
+	background-color: #f2f2f2;
+	color: black;
+	min-height: 600px;
+	display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.drums::before {
+  content: "";
+  background-image: url("../images/anthony-stanislavski-007.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  margin-top: -1px;
+}
+
+.teaching-hero {
+	font-size: 500%;
+}
+
+
+#nav-links {
+	float: right;
+	display: none;
+}
+@media (min-width: 900px) {
+	#nav-links {
+		display: inherit;
+		padding-right: 8px;
+	}
+}
+
+.page-links:link,
+.page-links:visited {
+	text-decoration: none;
+	margin: 9px;
+	display: inline-block;
+	padding-top: 7px;
+	border-bottom: none;
+	
+}
+
+#hidden-for-tablets {
+	display: inherit;
+}
+@media (min-width: 900px) {
+	#hidden-for-tablets {
+		display: none;
+	}
+
+	.page-links:hover,
+	.page-links:active {
+
+	}
+	.page-links:after {
+		content: '';
+		display: block;
+		margin: auto;
+		height: 3px;
+		width: 0px;
+		background: transparent;
+		transition: width .2s ease, background-color .5s ease;
+	}
+	.page-links:hover:after {
+		width: 100%;
+		background: #0FA0CE;
+	}
+
+	.page-links:before {
+		content: '';
+		display: block;
+		margin: auto;
+		height: 3px;
+		width: 0px;
+		background: transparent;
+		transition: width .2s ease, background-color .5s ease;
+	}
+	.page-links:hover:before {
+		width: 100%;
+		background: #0FA0CE;
+	}
+}
+
+.section-img {
+	width: 100%;
+	height: auto;
+}
+
+.section-heading{
+	font-family: 'Oswald', sans-serif;
+}
+
+.catchy-subtitle {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*theory*/
+
+.theory{
+	background: linear-gradient(
+		rgba(256, 256, 256, 1), 
+		rgba(256, 256, 256, 0.7)), 
+	    url('../images/IMG_4064 copy.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*testimonials*/
+
+.testimonial-heading:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+}
+
+.testimonials {
+	background-color: #06486d;
+	color: white;
+}
+
+.testimonial-heading {
+	margin-top: 40px;
+}
+
+.group-of-quotes {
+	margin-top: 40px;
+}
+
+.testimonial-box {
+	min-height: 0;
+	border: white solid 1px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 750px) {
+	.testimonial-box {
+		min-height: 465px;
+		padding-top: 40px;
+	}
+}
+
+@media (min-width: 930px) {
+	.testimonial-box {
+		min-height: 400px;
+		padding-top: 40px;
+	}
+}
+
+.testimonial-title {
+	font-family: 'Oswald', sans-serif;
+}
+
+.quote {
+	font-style: italic;
+}
+
+/*subscribe*/
+.subscribe {
+	background-color: white;
+	color: black;
+	min-height: 200px;
+}
+
+/*FAQ*/
+.faq {
+	background-color: #06486d;
+	color: white;
+}
+
+.question {
+	font-size: 140%;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	color: #71c2e5;
+}
+
+.answer {
+	font-size: 110%;
+}
+
+/*pricing*/
+.pricing {
+	background-image: url('../images/anthony-stanislavski-004.jpg');
+	min-height: 700px;
+	background-size: cover;
+    background-repeat: no-repeat;
+	color: white;
+}
+
+.price-title {
+	padding-top: 60px;
+}
+
+.group-of-prices {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+.group-of-prices-small {
+	margin-top: 0px;
+}
+
+.mini-price{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.pricing-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 15px;
+	padding: 10px;
+	padding-top: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.pricing-box-small {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	padding-top: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+#best-value {
+	margin-top: 30px;
+	width: 190px;
+	color: #00CD00;
+	transform: rotate(7deg);
+	font-family: 'Oswald', sans-serif;
+	border: #00CD00 2px solid;
+}
+
+@media (min-width: 750px) {
+	.pricing-box {
+		min-height: 350px;
+		position: relative;
+		bottom: 0;
+	}
+
+	.popular-box {
+		min-height: 380px;
+	}
+
+	#best-value {
+		width: 100%;
+	}
+}
+
+/*contact*/
+.contact {
+	background-image: url('../images/IMG_2755.jpg');
+	color: white;
+}
+
+.contact-details {
+	text-align: left;
+}
+
+/*-------- Rules for the performance page --------*/
+
+/*collaboration*/
+.collaboration {
+	border-top: 1px white solid;
+	min-height: 700px;
+	background-color: rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.collaboration::before {
+  content: "";
+  background-image: url('../images/anthony-stanislavski-003.jpg');
+  background-repeat: no-repeat;
+  min-height: 800px;
+  background-size: cover;
+  background-position: top;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  margin-top: 60px;
+}
+
+.collaboration-text {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 25px;
+	border-radius: 5px;
+	/*text-shadow: 2px 2px 10px black;*/
+}
+
+.collaboration-button {
+	margin-top: 100px; 
+}
+
+.work-together-content {
+	font-size: 120%;
+}
+
+/*media*/
+.media {
+	background-color: #262626;
+	color: white;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-top: 15px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.youtube-player {
+	position: relative;
+	padding-bottom: 56.23%;
+	/* Use 75% for 4:3 videos */
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	background: #000;
+	margin: 5px;
+}
+
+.youtube-player iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: transparent;
+}
+
+.youtube-player img {
+	bottom: 0;
+	display: block;
+	left: 0;
+	margin: auto;
+	max-width: 100%;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: none;
+	height: auto;
+	cursor: pointer;
+	-webkit-transition: .4s all;
+	-moz-transition: .4s all;
+	transition: .4s all;
+}
+
+.youtube-player img:hover {
+	-webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+	height: 72px;
+	width: 72px;
+	left: 50%;
+	top: 50%;
+	margin-left: -36px;
+	margin-top: -36px;
+	position: absolute;
+	background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+	cursor: pointer;
+}
+
+.soundcloud {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+/*about*/
+
+#about {
+	background-color: #06486d;
+	color: white;
+}
+
+/*projects*/
+#projects {
+	color: white;
+	background-color: #020202;
+}
+
+.band-links:link,
+.band-links:visited {
+	margin: auto;
+	margin-top: 3px;
+	display: block;
+	height: 38px;
+	/*padding: 0 30px;*/
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 4px;
+	border: 1px solid;
+	cursor: pointer;
+	box-sizing: border-box; 
+	color: #FFF;
+	background-color: #005f95;
+	border-color: #005f95;
+	width: 230px;
+}
+
+.band-links:hover,
+.band-links:active {
+	outline: 0;
+	color: #FFF;
+	background-color: #71c2e5;
+	border-color: #71c2e5;
+}
+
+/*-----------------Downloads*/
+
+#downloads {
+	background-color: #262626;
+	color: white;
+}
+
+.blog-date {
+	color: #F04C21;
+	font-size: 80%;
+}
+
+#sellfy {
+	background-color: #262626;
+	color: white;
+}
+
+.left-please {
+	text-align: left;
+}
+
+#projects-links {
+	margin-bottom: 30px;
+}
+
+.store {
+	height: 100%;
+}
+
+.store-frame {
+	height: 480px;
+}
+
+@media (min-width: 880px) {
+	.store-frame {
+		height: 850px;
+	}
+}
+
+/*-----------transcriptions*/
+
+.transcriptions {
+	background: linear-gradient(
+		rgba(256, 256, 256, 0.7), 
+		rgba(256, 256, 256, 1)), 
+	    url('../images/IMG_4062.jpg'
+	);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+/*--------------------sign up form*/
+
+
+#mc_embed_signup {
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	width:100%;
+}
+
+#signup-subtitle {
+	text-transform: uppercase;
+}
+
+.button-holder {
+	width: 180px;
+	text-align: center;
+	float: right;
+	padding: 5px 5px;
+
+}
+
+/*------------------------modal content*/
+@media (max-width: 800px) {
+	.modal-content {
+		width: 80%
+	}
+}
+@media (min-width: 800px) {
+	.modal-content {
+		width: 50%
+	}
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+}
+
+/* Modal Content */
+.modal-content {
+	margin: auto;
+	background-color: #fefefe;
+	padding: 20px;
+	border: 1px solid #888;
+	margin-bottom: 10px;
+    height: 1150px;
+    padding-bottom: 90px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
